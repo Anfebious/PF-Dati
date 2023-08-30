@@ -3,40 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    display: flex;
-    flex-flow: column;
-    min-height: 100vh;
-    min-width: fit-content;
-}
 .banner{
-    flex: 0 1 auto;
-    text-align: center;
-}
-.botones{
-    background-color: #FFD1DA;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-.boton{
-    display: inline-block;
-    padding: 20px;
-    font-size: 1.5rem;
+    width: fit-content;
 }
 .navegacion{
     color: #000000;
     font-family: 'Dancing Script', cursive;
-    text-decoration: none;
+    background-color: #FFD1DA;
+    font-size: 1.5rem;
 }
 .navegacion:hover{
     color: #FBA1B7;
 }
 main{
     background-color: #FBA1B7;
-    flex: 1 0 auto;
-    flex-flow: row;
-    display: flex;
 }
 .parrafo{
     font-family: 'Slabo 27px', serif;
@@ -100,68 +80,11 @@ footer{
     display: inline-block;
 }
 .carousel{
-    border: #FFDBAA solid;
-    height: fit-content;
-    width: fit-content;
-    max-width: 300px;
-    margin: 75px;
+    width: 300px;
 }
 .dropdown{
     display: none;
 }
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 70px 1fr;
-    grid-template-areas:
-    "boxheader boxheader"
-    "box1 box2"
-    ;
-}
-.boxheader{
-    grid-area: boxheader;
+.titulo{
     font-family: 'Dancing Script', cursive;
-    text-align: center;
-}
-.box1{
-    grid-area: box1;
-    justify-self: center;
-}
-.box2{
-    grid-area: box2;
-    font-size: 1.5rem;
-    text-align: left;
-}
-
-@media screen and (max-width: 768px) {
-    .contenedor{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-auto-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "box1"
-        "boxheader"
-        "box2"
-        ;
-    }
-    .navmenu{
-        display: none;
-    }
-    .dropdown{
-        display: flex;
-    }
-    .dropdown-item{
-        background-color: #FFD1DA;
-        border: #FFDBAA solid;
-        font-family: 'Dancing Script', cursive;
-        text-align: center;
-        font-size: large;
-    }
-    .dropdown-toggle{
-        background-color: #FBA1B7;
-    }
-    .box2{
-        text-align: center;
-    }
 }
