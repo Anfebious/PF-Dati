@@ -15,6 +15,9 @@
 .navegacion:hover{
     color: #FBA1B7;
 }
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
 main{
     background-color: #FBA1B7;
 }
@@ -69,12 +72,11 @@ footer{
     border: 2px double #FFDBAA;
     opacity: 0.5;
     border-radius: 15px;
-    margin: 10px;
 }
 .imagengaleria:hover{
     opacity: 1;
     border: solid white;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .iframe{
     display: inline-block;
