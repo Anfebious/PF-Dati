@@ -22,7 +22,9 @@ main{
     background-color: #FBA1B7;
 }
 .parrafo{
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    opacity: 85%;
 }
 footer{
     color: rgb(14, 13, 13);
@@ -47,11 +49,12 @@ footer{
     text-align: center;
     flex-flow: column;
     padding-top: 20px;
-    font-size: larger;
+    font-size: 15px;
+    height: 70vh;
 }
 .espacioform{
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 .cursos{
     text-align: center;
