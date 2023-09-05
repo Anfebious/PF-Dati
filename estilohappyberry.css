@@ -44,6 +44,14 @@ footer{
 .bordes{
     border-radius: 30px;
     padding: 8px;
+    opacity: 55%;
+}
+.bordes:hover{
+    opacity: 100%;
+}
+.bordesboton{
+    border-radius: 30px;
+    padding: 8px;
 }
 .formulario{
     text-align: center;
@@ -92,4 +100,9 @@ footer{
 }
 .titulo{
     font-family: 'Dancing Script', cursive;
+    justify-content: center;
+}
+.contenidomain{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
