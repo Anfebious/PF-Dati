@@ -26,6 +26,10 @@ main{
     font-size: 20px;
     opacity: 85%;
 }
+.parrafo:hover{
+    opacity: 100%;
+    color: #FFDBAA;
+}
 footer{
     color: rgb(14, 13, 13);
     flex: 0 1 auto;
