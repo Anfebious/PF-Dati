@@ -73,11 +73,6 @@ footer{
     flex-flow: column;
     padding-top: 10px;
 }
-.carrito{
-    font-family: 'Slabo 27px', serif;
-    margin: 0 auto;
-    padding-top: 25px;
-}
 .galeria{
     flex-wrap: wrap;
     margin: 35px;
@@ -94,6 +89,7 @@ footer{
     border-radius: 15px;
 }
 .iframe{
+
     display: inline-block;
 }
 .carousel{
@@ -105,4 +101,20 @@ footer{
 .titulo{
     font-family: 'Dancing Script', cursive;
     justify-content: center;
+}
+.contenidomain{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.titulotabla{
+    font-family: 'Dancing Script', cursive;
+}
+.contenidotabla{
+    font-family: 'Dancing Script', cursive;
+}
+.contenidosection{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
