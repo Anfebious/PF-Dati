@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: $Color-main;
+    div{
+        div{
+            .titulo{
+                font-family: $fuente-titulo;
+                justify-content: center;
+            }
+        }
+    }
+    .carousel{
+        width: 300px;
+    }
+    section{
+        .parrafo{
+            font-family: $fuente-texto;
+            font-size: 20px;
+            opacity: 85%;
+            &:hover{
+                opacity: 100%;
+                color: $Color-footer;
+            }
+        }
+    }
+}

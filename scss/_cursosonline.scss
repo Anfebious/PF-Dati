@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: $Color-main;
+    div{
+        div{
+            .titulo{
+                font-family: $fuente-titulo;
+                justify-content: center;
+            }
+        }
+    }
+    section{
+        div{
+            iframe{
+                width: 560px;
+                height: 315px;
+            }
+        }
+        div{
+            .card{
+                width: 18rem;
+            }
+        }
+    }
+}

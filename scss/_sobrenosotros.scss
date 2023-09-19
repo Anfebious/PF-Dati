@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenidomain{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: $Color-main;
+    div{
+        div{
+            .titulo{
+                font-family: $fuente-titulo;
+                justify-content: center;
+            }
+        }
+        .nosotrosmain{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            div{
+                .parrafo{
+                    font-family: $fuente-texto;
+                    font-size: 20px;
+                    opacity: 85%;
+                    &:hover{
+                        opacity: 100%;
+                        color: $Color-footer;
+                    }
+                }
+            }
+            div{
+                .imgnosotros{
+                    border-radius: 30px;
+                    padding: 8px;
+                    opacity: 55%;
+                    &:hover{
+                        opacity: 100%;
+                    }
+                }
+            }
+        }
+    } 
+}

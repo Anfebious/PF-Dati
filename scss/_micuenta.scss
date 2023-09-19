@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: $Color-main;
+    .formulario{
+        text-align: center;
+        flex-flow: column;
+        padding-top: 20px;
+        font-size: 15px;
+        height: 70vh;
+        .titulo{
+            font-family: $fuente-titulo;
+            justify-content: center;
+        }
+        form{
+            .espacioform{
+                text-align: center;
+                padding: 5px;
+                .tituloform{
+                    font-family: $fuente-titulo;
+                    justify-content: center;
+                    font-weight: 700;
+                }
+                .bordesboton{
+                    border-radius: 30px;
+                    padding: 8px;
+                    &:hover{
+                        opacity: 100%;
+                    } 
+                }
+            }
+            .passwordboton{
+                border-radius: 30px;
+                padding: 8px;
+                &:hover{
+                    opacity: 100%;
+                } 
+            }
+        }
+    }
+}

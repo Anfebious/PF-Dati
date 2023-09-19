@@ -1,0 +1,15 @@
+footer{
+    color: rgb(14, 13, 13);
+    flex: 0 1 auto;
+    background-color: $Color-footer;
+    margin-top: auto;
+    .copyright{
+        font-family: $fuente-texto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .socialnetlogo{
+        text-align: right;
+    }
+}

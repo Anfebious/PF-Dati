@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenidomain{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: $Color-main;
+    div{
+        div{
+            .titulo{
+                font-family: $fuente-titulo;
+                justify-content: center;
+            }
+        }
+        section{
+            table{
+                thead{
+                    tr{
+                        .titulo{
+                            font-family: $fuente-titulo;
+                            justify-content: center;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        .contenidotabla{
+                            font-family: $fuente-texto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

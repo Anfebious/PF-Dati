@@ -1,0 +1,19 @@
+header{
+    .banner{
+        width: fit-content;
+    }
+    nav{
+        .navegacion{
+            color: black;
+            font-family: $fuente-texto;
+            background-color: $Color-header;
+            font-size: 1.5rem;
+            &:hover {
+                color: $Color-main;
+            }
+        }
+    }
+}
+.navbar{
+    --bs-navbar-padding-y: 0;
+}

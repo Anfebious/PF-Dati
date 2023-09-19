@@ -1,41 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.banner {
+header .banner {
   width: fit-content;
 }
-
-.navegacion {
-  color: #000000;
+header nav .navegacion {
+  color: black;
   font-family: "Dancing Script", cursive;
   background-color: #FFD1DA;
   font-size: 1.5rem;
 }
-
-.navegacion:hover {
+header nav .navegacion:hover {
   color: #FBA1B7;
 }
 
 .navbar {
   --bs-navbar-padding-y: 0;
-}
-
-main {
-  background-color: #FBA1B7;
-}
-
-.parrafo {
-  font-family: "Dancing Script", cursive;
-  font-size: 20px;
-  opacity: 85%;
-}
-
-.parrafo:hover {
-  opacity: 100%;
-  color: #FFDBAA;
 }
 
 footer {
@@ -44,105 +21,185 @@ footer {
   background-color: #FFDBAA;
   margin-top: auto;
 }
-
-.copyright {
+footer .copyright {
   font-family: "Dancing Script", cursive;
   text-align: center;
   font-weight: 700;
   font-size: 1.5rem;
 }
-
-.socialnetlogo {
+footer .socialnetlogo {
   text-align: right;
 }
 
-.bordes {
-  border-radius: 30px;
-  padding: 8px;
-  opacity: 55%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.bordes:hover {
+main {
+  background-color: #FBA1B7;
+}
+main div div .titulo {
+  font-family: "Great Vibes", cursive;
+  justify-content: center;
+}
+main .carousel {
+  width: 300px;
+}
+main section .parrafo {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  opacity: 85%;
+}
+main section .parrafo:hover {
   opacity: 100%;
+  color: #FFDBAA;
 }
 
-.bordesboton {
-  border-radius: 30px;
-  padding: 8px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.formulario {
+main {
+  background-color: #FBA1B7;
+}
+main div div .titulo {
+  font-family: "Great Vibes", cursive;
+  justify-content: center;
+}
+main section div iframe {
+  width: 560px;
+  height: 315px;
+}
+main section div .card {
+  width: 18rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #FBA1B7;
+}
+main .formulario {
   text-align: center;
   flex-flow: column;
   padding-top: 20px;
   font-size: 15px;
   height: 70vh;
 }
-
-.espacioform {
-  text-align: center;
-  padding: 15px;
-}
-
-.cursos {
-  text-align: center;
-  flex-flow: column;
-  padding-top: 10px;
-}
-
-.galeria {
-  flex-wrap: wrap;
-  margin: 35px;
-  text-align: center;
-}
-
-.imagengaleria {
-  border: 2px double #FFDBAA;
-  opacity: 0.5;
-  border-radius: 15px;
-}
-
-.imagengaleria:hover {
-  opacity: 1;
-  border: solid white;
-  border-radius: 15px;
-}
-
-.iframe {
-  display: inline-block;
-}
-
-.carousel {
-  width: 300px;
-}
-
-.dropdown {
-  display: none;
-}
-
-.titulo {
-  font-family: "Dancing Script", cursive;
+main .formulario .titulo {
+  font-family: "Great Vibes", cursive;
   justify-content: center;
+}
+main .formulario form .espacioform {
+  text-align: center;
+  padding: 5px;
+}
+main .formulario form .espacioform .tituloform {
+  font-family: "Great Vibes", cursive;
+  justify-content: center;
+  font-weight: 700;
+}
+main .formulario form .espacioform .bordesboton {
+  border-radius: 30px;
+  padding: 8px;
+}
+main .formulario form .espacioform .bordesboton:hover {
+  opacity: 100%;
+}
+main .formulario form .passwordboton {
+  border-radius: 30px;
+  padding: 8px;
+}
+main .formulario form .passwordboton:hover {
+  opacity: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .contenidomain {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: #FBA1B7;
 }
-
-.titulotabla {
-  font-family: "Dancing Script", cursive;
+.contenidomain div div .titulo {
+  font-family: "Great Vibes", cursive;
+  justify-content: center;
 }
-
-.contenidotabla {
-  font-family: "Dancing Script", cursive;
-}
-
-.contenidosection {
+.contenidomain div .nosotrosmain {
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-left: 400px;
-  padding-right: 400px;
+}
+.contenidomain div .nosotrosmain div .parrafo {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  opacity: 85%;
+}
+.contenidomain div .nosotrosmain div .parrafo:hover {
+  opacity: 100%;
+  color: #FFDBAA;
+}
+.contenidomain div .nosotrosmain div .imgnosotros {
+  border-radius: 30px;
+  padding: 8px;
+  opacity: 55%;
+}
+.contenidomain div .nosotrosmain div .imgnosotros:hover {
+  opacity: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenidomain {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #FBA1B7;
+}
+.contenidomain div div .titulo {
+  font-family: "Great Vibes", cursive;
+  justify-content: center;
+}
+.contenidomain div section table thead tr .titulo {
+  font-family: "Great Vibes", cursive;
+  justify-content: center;
+}
+.contenidomain div section table tbody tr .contenidotabla {
+  font-family: "Dancing Script", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #FBA1B7;
+}
+main section div .imagengaleria {
+  border: 2px double #FFDBAA;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+main section div .imagengaleria:hover {
+  opacity: 1;
+  border: solid white;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=estilohappyberry.css.map */
