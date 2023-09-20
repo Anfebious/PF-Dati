@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,8 +50,8 @@
         </h1>
       </div>
       <div class="row contenidomain">
-        <div class="carousel slide col-lg-6 col-sm-12 m-auto p-3" data-bs-ride="carousel">
-          <div class="carousel-inner">
+        <div data-aos="fade-down-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" class="carousel slide col-lg-6 col-sm-12 m-auto p-3" data-bs-ride="carousel">
+          <div class="carousel-inner rounded-3">
             <div class="carousel-item active">
               <img src="./Fotos/Galeria/Galeria 5.jpg" class="d-block w-100" alt="foto">
             </div>
@@ -62,7 +63,7 @@
             </div>
           </div>
         </div>
-        <section class="col-lg-6 col-sm-12 p-5">
+        <section data-aos="fade-down-left" data-aos-duration="2000" data-aos-easing="ease-in-sine" class="col-lg-6 col-sm-12 p-5">
           <p class="parrafo">
             En esta pagina encontraran nuestras declicias culinarias, pensadas exclusivamente para deleitar sus
             paladares.
@@ -80,19 +81,23 @@
       <p>
         - Happy Berry Pasteleria ® -
       </p>
-    </div>
-    <div class="socialnetlogo">
-      <a href="https://www.facebook.com/" target="_blank"><img src="./Fotos/62375405-4995-4771-9f46-6c6e77b4a18c.png"
-          alt="logofacebook"></a>
-      <a href="https://www.instagram.com/" target="_blank"><img src="./Fotos/b2c41a13-9142-4c7d-a0a6-67bf8e54adde.png"
-          alt="logoinstagram"></a>
-      <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" target="_blank"><img
-          src="./Fotos/59699c4a-923f-4c2b-a200-22c3abc4e07b.png" alt="logoemail"></a>
+      <div class="socialnetlogo">
+        <a href="https://www.facebook.com/" target="_blank"><img src="./Fotos/62375405-4995-4771-9f46-6c6e77b4a18c.png"
+            alt="logofacebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./Fotos/b2c41a13-9142-4c7d-a0a6-67bf8e54adde.png"
+            alt="logoinstagram"></a>
+        <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" target="_blank"><img
+            src="./Fotos/59699c4a-923f-4c2b-a200-22c3abc4e07b.png" alt="logoemail"></a>
+      </div>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

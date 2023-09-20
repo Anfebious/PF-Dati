@@ -20,15 +20,13 @@ footer {
   flex: 0 1 auto;
   background-color: #FFDBAA;
   margin-top: auto;
+  background-image: linear-gradient(to bottom, #FFDBAA, #FFFFFF);
 }
 footer .copyright {
   font-family: "Dancing Script", cursive;
   text-align: center;
   font-weight: 700;
   font-size: 1.5rem;
-}
-footer .socialnetlogo {
-  text-align: right;
 }
 
 * {
@@ -110,6 +108,8 @@ main .formulario form .espacioform .tituloform {
 main .formulario form .espacioform .bordesboton {
   border-radius: 30px;
   padding: 8px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 main .formulario form .espacioform .bordesboton:hover {
   opacity: 100%;
@@ -117,6 +117,8 @@ main .formulario form .espacioform .bordesboton:hover {
 main .formulario form .passwordboton {
   border-radius: 30px;
   padding: 8px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 main .formulario form .passwordboton:hover {
   opacity: 100%;

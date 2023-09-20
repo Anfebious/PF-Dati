@@ -3,13 +3,11 @@ footer{
     flex: 0 1 auto;
     background-color: $Color-footer;
     margin-top: auto;
+    background-image: linear-gradient(to bottom,#FFDBAA, #FFFFFF );
     .copyright{
         font-family: $fuente-texto;
         text-align: center;
         font-weight: 700;
         font-size: 1.5rem;
-    }
-    .socialnetlogo{
-        text-align: right;
     }
 }

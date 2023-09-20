@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="./Estilos/estilohappyberry.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <a class="row m-auto banner" href="./index.html" target=""><img
-                    src="./Fotos/Imagen Definitiva (2).png" alt="logoprincipal"></a>
+            <a class="row m-auto banner" href="./index.html" target=""><img src="./Fotos/Imagen Definitiva (2).png"
+                    alt="logoprincipal"></a>
         </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid navegacion p-3">
@@ -45,12 +47,12 @@
     <main class="main">
         <div class="container">
             <div class="row">
-                <h1 class="titulo col-lg-12 col-md-12 col-sm-12 text-center">
+                <h1 class="titulo p-5 col-lg-12 col-md-12 col-sm-12 text-center">
                     Cursos Online
                 </h1>
             </div>
             <section class="pb-5">
-                <div class="text-center">
+                <div data-aos="zoom-in-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" class="text-center">
                     <iframe src="https://www.youtube.com/embed/yts6kM3kA_4?si=nYgeYCeQYwMX3xmj"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -58,7 +60,7 @@
                     </iframe>
                 </div>
                 <div class="row pt-5">
-                    <div class="card col-lg-4 col-md-6 col-sm-12 m-auto">
+                    <div data-aos="zoom-in-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" class="card col-lg-4 col-md-6 col-sm-12 m-auto">
                         <img src="./Fotos/Galeria/Galeria 13.jpg" class="card-img-top" alt="foto">
                         <div class="card-body">
                             <h2 class="card-title titulo text-center">Curso de Tartas</h2>
@@ -67,7 +69,7 @@
                             <a href="#" class="btn btn-info">Comprar $20.000</a>
                         </div>
                     </div>
-                    <div class="card col-lg-4 col-md-6 col-sm-12 m-auto">
+                    <div data-aos="zoom-out" data-aos-duration="2000" data-aos-easing="ease-in-sine" class="card col-lg-4 col-md-6 col-sm-12 m-auto">
                         <img src="./Fotos/Galeria/Galeria 10.jpg" class="card-img-top" alt="foto">
                         <div class="card-body">
                             <h2 class="card-title titulo text-center">Curso de Tortas Modernas</h2>
@@ -76,7 +78,7 @@
                             <a href="#" class="btn btn-info">Comprar $30.000</a>
                         </div>
                     </div>
-                    <div class="card col-lg-4 col-md-6 col-sm-12 m-auto">
+                    <div data-aos="zoom-in-left" data-aos-duration="2000" data-aos-easing="ease-in-sine" class="card col-lg-4 col-md-6 col-sm-12 m-auto">
                         <img src="./Fotos/Galeria/Galeria 12.jpg" class="card-img-top" alt="foto">
                         <div class="card-body ">
                             <h2 class="card-title titulo text-center">Curso de Tortas Clasicas</h2>
@@ -94,19 +96,23 @@
             <p>
                 - Happy Berry Pasteleria ® -
             </p>
-        </div>
-        <div class="socialnetlogo">
-            <a href="https://www.facebook.com/" target="_blank"><img
-                    src="./Fotos/62375405-4995-4771-9f46-6c6e77b4a18c.png" alt="logofacebook"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img
-                    src="./Fotos/b2c41a13-9142-4c7d-a0a6-67bf8e54adde.png" alt="logoinstagram"></a>
-            <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" target="_blank"><img
-                    src="./Fotos/59699c4a-923f-4c2b-a200-22c3abc4e07b.png" alt="logoemail"></a>
+            <div class="socialnetlogo">
+                <a href="https://www.facebook.com/" target="_blank"><img
+                        src="./Fotos/62375405-4995-4771-9f46-6c6e77b4a18c.png" alt="logofacebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img
+                        src="./Fotos/b2c41a13-9142-4c7d-a0a6-67bf8e54adde.png" alt="logoinstagram"></a>
+                <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" target="_blank"><img
+                        src="./Fotos/59699c4a-923f-4c2b-a200-22c3abc4e07b.png" alt="logoemail"></a>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

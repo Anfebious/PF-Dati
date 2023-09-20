@@ -27,6 +27,8 @@ main{
                 .bordesboton{
                     border-radius: 30px;
                     padding: 8px;
+                    font-family: $fuente-texto;
+                    font-weight: 700;
                     &:hover{
                         opacity: 100%;
                     } 
@@ -35,6 +37,8 @@ main{
             .passwordboton{
                 border-radius: 30px;
                 padding: 8px;
+                font-family: $fuente-texto;
+                font-weight: 700;
                 &:hover{
                     opacity: 100%;
                 } 
