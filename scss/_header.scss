@@ -14,6 +14,7 @@ header {
         }
     }
 }
+/*La siguiente clase se incorporo de esta manera ya que no hubo forma de definir el padding de la navbar. Esto fue resuelto por un tutor de coderhouse que me indico que debia incorporar esta linea de codigo css para corregir el error que estaba teniendo. Este error era un espacio en blanco entre la navbar y el main de mi pagina.*/
 .navbar {
     --bs-navbar-padding-y: 0;
 }
