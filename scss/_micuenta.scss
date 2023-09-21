@@ -1,7 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    @include format(0,0,border-box);
 }
 main{
     background-color: $Color-main;
@@ -22,23 +20,21 @@ main{
                 .tituloform{
                     font-family: $fuente-titulo;
                     justify-content: center;
-                    font-weight: 700;
+                    @include fonts(700,100%,1.25rem);
                 }
                 .bordesboton{
-                    border-radius: 30px;
-                    padding: 8px;
+                    @include bordes(30px,8px);
                     font-family: $fuente-texto;
-                    font-weight: 700;
+                    @include fonts(700,100%,1.25rem);
                     &:hover{
                         opacity: 100%;
                     } 
                 }
             }
             .passwordboton{
-                border-radius: 30px;
-                padding: 8px;
+                @include bordes(30px,8px);
                 font-family: $fuente-texto;
-                font-weight: 700;
+                @include fonts(700,100%,1.25rem);
                 &:hover{
                     opacity: 100%;
                 } 

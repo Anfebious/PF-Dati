@@ -15,6 +15,11 @@ header nav .navegacion:hover {
   --bs-navbar-padding-y: 0;
 }
 
+@media screen and (max-width: 768px) {
+  header nav .navegacion {
+    font-size: 1.25rem;
+  }
+}
 footer {
   color: rgb(14, 13, 13);
   flex: 0 1 auto;
@@ -47,8 +52,9 @@ main .carousel {
 }
 main section .parrafo {
   font-family: "Dancing Script", cursive;
-  font-size: 20px;
+  font-weight: 2000;
   opacity: 85%;
+  font-size: 20px;
 }
 main section .parrafo:hover {
   opacity: 100%;
@@ -104,12 +110,16 @@ main .formulario form .espacioform .tituloform {
   font-family: "Great Vibes", cursive;
   justify-content: center;
   font-weight: 700;
+  opacity: 100%;
+  font-size: 1.25rem;
 }
 main .formulario form .espacioform .bordesboton {
   border-radius: 30px;
   padding: 8px;
   font-family: "Dancing Script", cursive;
   font-weight: 700;
+  opacity: 100%;
+  font-size: 1.25rem;
 }
 main .formulario form .espacioform .bordesboton:hover {
   opacity: 100%;
@@ -119,6 +129,8 @@ main .formulario form .passwordboton {
   padding: 8px;
   font-family: "Dancing Script", cursive;
   font-weight: 700;
+  opacity: 100%;
+  font-size: 1.25rem;
 }
 main .formulario form .passwordboton:hover {
   opacity: 100%;
@@ -145,8 +157,9 @@ main .formulario form .passwordboton:hover {
 }
 .contenidomain div .nosotrosmain div .parrafo {
   font-family: "Dancing Script", cursive;
-  font-size: 20px;
+  font-weight: 2000;
   opacity: 85%;
+  font-size: 20px;
 }
 .contenidomain div .nosotrosmain div .parrafo:hover {
   opacity: 100%;

@@ -1,7 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{    
+    @include format(0,0,border-box);
 }
 main{
     background-color: $Color-main;
@@ -19,8 +17,7 @@ main{
     section{
         .parrafo{
             font-family: $fuente-texto;
-            font-size: 20px;
-            opacity: 85%;
+            @include fonts(2000,85%,20px);
             &:hover{
                 opacity: 100%;
                 color: $Color-footer;

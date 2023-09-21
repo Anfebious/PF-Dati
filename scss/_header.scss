@@ -1,9 +1,9 @@
-header{
-    .banner{
+header {
+    .banner {
         width: fit-content;
     }
-    nav{
-        .navegacion{
+    nav {
+        .navegacion {
             color: black;
             font-family: $fuente-texto;
             background-color: $Color-header;
@@ -14,6 +14,16 @@ header{
         }
     }
 }
-.navbar{
+.navbar {
     --bs-navbar-padding-y: 0;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        nav{
+            .navegacion {
+                font-size: 1.25rem;
+            }
+        }
+    }
 }

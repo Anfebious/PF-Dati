@@ -1,11 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    @include format(0,0,border-box);
 }
 .contenidomain{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    @include padding(80px,80px);
     background-color: $Color-main;
     div{
         div{
@@ -15,13 +12,11 @@
             }
         }
         .nosotrosmain{
-            padding-top: 80px;
-            padding-bottom: 80px;
+            @include padding(80px,80px);
             div{
                 .parrafo{
                     font-family: $fuente-texto;
-                    font-size: 20px;
-                    opacity: 85%;
+                    @include fonts(2000,85%,20px);
                     &:hover{
                         opacity: 100%;
                         color: $Color-footer;
@@ -30,8 +25,7 @@
             }
             div{
                 .imgnosotros{
-                    border-radius: 30px;
-                    padding: 8px;
+                    @include bordes(30px,8px);
                     opacity: 55%;
                     &:hover{
                         opacity: 100%;
