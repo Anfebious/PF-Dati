@@ -4,6 +4,11 @@
 main{
     background-color: $Color-main;
     section{
+        .titulo{
+            padding: 20px;
+            font-family: $fuente-titulo;
+            text-align: center;
+        }
         div{
             .imagengaleria{
                 border: 2px double $Color-footer;

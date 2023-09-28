@@ -219,6 +219,11 @@ main .formulario form .passwordboton:hover {
 main {
   background-color: #FBA1B7;
 }
+main section .titulo {
+  padding: 20px;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
 main section div .imagengaleria {
   border: 2px double #FFDBAA;
   opacity: 0.5;
