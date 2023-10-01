@@ -31,14 +31,6 @@ main{
                     } 
                 }
             }
-            .passwordboton{
-                @include bordes(30px,8px);
-                font-family: $fuente-texto;
-                @include fonts(700,100%,1.25rem);
-                &:hover{
-                    opacity: 100%;
-                } 
-            }
         }
     }
 }

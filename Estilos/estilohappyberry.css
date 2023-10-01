@@ -44,7 +44,7 @@ footer .copyright {
 main {
   background-color: #FBA1B7;
 }
-main div div .titulo {
+main div div .titulo, main .contenidomain div div section table thead tr .titulo, .contenidomain main div div section table thead tr .titulo, main .contenidomain div section table thead tr div .titulo, .contenidomain main div section table thead tr div .titulo {
   font-family: "Great Vibes", cursive;
   justify-content: center;
 }
@@ -71,7 +71,7 @@ main section .parrafo:hover {
 main {
   background-color: #FBA1B7;
 }
-main div div .titulo {
+main div div .titulo, main .contenidomain div div section table thead tr .titulo, .contenidomain main div div section table thead tr .titulo, main .contenidomain div section table thead tr div .titulo, .contenidomain main div section table thead tr div .titulo {
   font-family: "Great Vibes", cursive;
   justify-content: center;
 }
@@ -111,7 +111,7 @@ main .formulario {
   font-size: 15px;
   height: 70vh;
 }
-main .formulario .titulo {
+main .formulario .titulo, main .formulario .contenidomain div section table thead tr .titulo, .contenidomain div section table thead tr main .formulario .titulo {
   font-family: "Great Vibes", cursive;
   justify-content: center;
 }
@@ -137,17 +137,6 @@ main .formulario form .espacioform .bordesboton {
 main .formulario form .espacioform .bordesboton:hover {
   opacity: 100%;
 }
-main .formulario form .passwordboton {
-  border-radius: 30px;
-  padding: 8px;
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-  opacity: 100%;
-  font-size: 1.25rem;
-}
-main .formulario form .passwordboton:hover {
-  opacity: 100%;
-}
 
 * {
   margin: 0;
@@ -160,7 +149,7 @@ main .formulario form .passwordboton:hover {
   padding-bottom: 80px;
   background-color: #FBA1B7;
 }
-.contenidomain div div .titulo {
+.contenidomain div div .titulo, .contenidomain div div section table thead tr .titulo, .contenidomain div section table thead tr div .titulo {
   font-family: "Great Vibes", cursive;
   justify-content: center;
 }
@@ -198,11 +187,7 @@ main .formulario form .passwordboton:hover {
   padding-bottom: 80px;
   background-color: #FBA1B7;
 }
-.contenidomain div div .titulo {
-  font-family: "Great Vibes", cursive;
-  justify-content: center;
-}
-.contenidomain div section table thead tr .titulo {
+.contenidomain div div .titulo, .contenidomain div div section table thead tr .titulo, .contenidomain div section table thead tr div .titulo {
   font-family: "Great Vibes", cursive;
   justify-content: center;
 }
@@ -219,7 +204,7 @@ main .formulario form .passwordboton:hover {
 main {
   background-color: #FBA1B7;
 }
-main section .titulo {
+main section .titulo, main .contenidomain div section table thead tr .titulo, .contenidomain div main section table thead tr .titulo {
   padding: 20px;
   font-family: "Great Vibes", cursive;
   text-align: center;

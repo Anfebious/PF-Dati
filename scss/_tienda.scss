@@ -1,6 +1,7 @@
 *{
     @include format(0,0,border-box);
 }
+
 .contenidomain{
     @include padding(80px,80px);
     background-color: $Color-main;
@@ -16,8 +17,7 @@
                 thead{
                     tr{
                         .titulo{
-                            font-family: $fuente-titulo;
-                            justify-content: center;
+                            @extend .titulo;
                         }
                     }
                 }
