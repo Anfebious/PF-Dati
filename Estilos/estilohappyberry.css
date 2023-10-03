@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenidomain {
+  background-color: #FBA1B7;
+}
+.contenidomain div div .titulo, .contenidomain div div section table thead tr .titulo, .contenidomain div section table thead tr div .titulo {
+  font-family: "Great Vibes", cursive;
+  justify-content: center;
+}
+.contenidomain div form div .etiqueta {
+  font-family: "Dancing Script", cursive;
+  font-weight: 15px;
+  opacity: 100;
+  font-size: 15px;
+}
+
 header .banner {
   width: fit-content;
 }

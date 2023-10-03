@@ -1,0 +1,23 @@
+* {
+    @include format(0,0,border-box);
+}
+
+.contenidomain{
+    background-color: $Color-main;
+    div {
+        div {
+            .titulo {
+                font-family: $fuente-titulo;
+                justify-content: center;
+            }
+        }
+        form {
+            div {
+                .etiqueta {
+                    font-family: $fuente-texto;
+                    @include fonts (15px, 100, 15px);
+                }
+            }
+        }
+    }
+}
